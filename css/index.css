@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Chapillada;
+    src: url("../fonts/Chapillada.otf") format("opentype");
+}
+
+
 body{
   height: 100%;
   padding: 0;
@@ -23,6 +29,8 @@ body{
 }
 
 .container-navigation a{
+  font-family: Chapillada;
+  font-size: 1.5rem;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
   text-decoration: none;
@@ -110,6 +118,21 @@ a.home-menu{
   height: auto;
 }
 
+.container-logo-img{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  /* border: 1px solid red; */
+  top: 43%;
+  display: block;
+}
+
+.container-logo-img .logo-img{
+  /* margin-left: 32%; */
+  width: 23%;
+  height: auto;
+}
+
 footer{
   position: relative;
   width: 100%;
@@ -133,5 +156,11 @@ footer i{
 @media all and (max-width: 850px) {
   html{
     height: 100%;
+  }
+
+  .container-navigation a{
+    font-size: 0.8rem;
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
   }
 }
