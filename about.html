@@ -1,47 +1,73 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>SYSiD | About</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/about.css">
+<head>
+  <meta charset="utf-8">
+  <title>SYSiD | About</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-  </head>
-  <body>
+  <link rel="stylesheet" href="css/about.css">
 
-    <section id="title">
-      <div class="container-navigation">
-        <a href="index.html">HOME</a> <span>|</span>
-        <a href="#" class="about-menu">ABOUT</a>  <span>|</span>
-        <a href="offered_solutions.html">OFFERED SOLUTIONS</a> <span>|</span>
-        <a href="collaborate_with_us.html">COLLABORATE WITH US</a>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-navigation">
+      <a href="index.html">HOME</a> <span>|</span>
+      <a href="#" class="about-menu">ABOUT</a> <span>|</span>
+      <a href="offered_solutions.html">OFFERED SOLUTIONS</a> <span>|</span>
+      <a href="collaborate_with_us.html">COLLABORATE WITH US</a>
+    </div>
+    <div class="container-about-img">
+      <img src="images/about_image.png" class="about-img">
+      <div class="container-about-text">
+        <p>SYSID is an on-demand, full service <br>
+          marketing consultancy firm.<br><br>
+          We provide our clients with the <br>
+          strategy and solutions that optimize <br>
+          results and business performance in <br>
+          this digital age.
+        </p>
       </div>
-      <div class="container-about-img">
-        <img src="images/about_image.png" class="about-img">
-        <div class="container-about-text">
-          <p>SYSID is an on-demand, full service <br>
-            marketing consultancy firm.<br><br>
-            We provide our clients with the <br>
-            strategy and solutions that optimize <br>
-            results and business performance in <br>
-            this digital age.
-          </p>
-        </div>
-      </div>
-    </section>
+    </div>
+  </section>
 
-    <footer>
-      <a href="https://www.facebook.com/sysid.ph/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-      <a href="https://www.instagram.com/sysid.ph/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+  <footer>
+    <a href="https://www.facebook.com/sysid.ph/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+    <a href="https://www.instagram.com/sysid.ph/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+    <a href="https://www.linkedin.com/company/sysid/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="mailto:hello@sysid.ph"><i class="fas fa-envelope"></i></a>
+    <a href="https://m.me/sysid.ph" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
 
-      <a href="https://www.linkedin.com/company/sysid/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <!-- <i class="fas fa-phone-square-alt"></i> -->
+  </footer>
 
-      <i class="fas fa-envelope"></i>
-      <i class="fab fa-facebook-messenger"></i>
-      <i class="fas fa-phone-square-alt"></i>
-    </footer>
+</body>
 
-  </body>
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml: true,
+      version: 'v8.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<!-- Your Chat Plugin code -->
+<div class="fb-customerchat" attribution=setup_tool page_id="105441090988022" theme_color="#bebebe">
+</div>
+
 </html>

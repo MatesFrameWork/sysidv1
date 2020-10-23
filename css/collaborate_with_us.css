@@ -157,7 +157,8 @@ a.collaborate-with-us-menu{
   width: 13.7%;
   height: auto;
   text-align: center;
-  top: 63%;
+  /* top: 63%; */
+  top: 53%;
   left: 50%;
   transform: translate(-50%);
   border-radius: 30px;
@@ -175,25 +176,25 @@ a.collaborate-with-us-menu{
   color: white;
 }
 
+.container-mail-connect-text i{
+  position: relative;
+  font-size: 2.5vw;
+  display: block;
+  float: left;
+  padding-left: 20%;
+  /* border:1px solid blue; */
+}
 
 .container-mail-connect-text a{
-
   text-decoration: none;
   color: black;
   font-family: Gotham;
   font-size: 1.2vw;
   display: block;
-  float: left;
-  margin-top: 2.75%;
-  /* border:1px solid red; */
-}
-
-.container-mail-connect-text i{
-  position: relative;
-  font-size: 2.5vw;
-  display: block;
   float: right;
-  /* border:1px solid blue; */
+  margin-top: 2.75%;
+  padding-right: 20%;
+  /* border:1px solid red; */
 }
 
 footer{

@@ -26,5 +26,13 @@
 
 $(".container-mail-connect-text").click(function(){
   $(".container-mail-connect-text a")[0].click();
-
 });
+
+
+function sendMessage(){
+  var clientName = $("#client-name").val();
+  var clientEmail = $("#client-email").val();
+
+  var request = new XMLHttpRequest();
+  request.open('GET','https://onedrive.live.com/edit.aspx?cid=fdc339d14b7bd2af&page=view&resid=FDC339D14B7BD2AF!112&parId=FDC339D14B7BD2AF!103&app=Excel', true);
+}
