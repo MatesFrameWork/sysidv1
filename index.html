@@ -16,34 +16,37 @@
 <body>
 
   <section id="title">
-    <div class="container-navigation">
+    <div class="container-navigation" id="navigation-menu">
+      <a href="javascript:void(0);" class="icon" onclick="navigationIcon()">
+        <i class="fa fa-bars"></i>
+      </a>
       <a href="#" class="title-menu">HOME</a> <span>|</span>
       <a href="#about" class="about-menu">ABOUT</a> <span>|</span>
       <a href="#solutions" class="solutions-menu">OFFERED SOLUTIONS</a> <span>|</span>
       <a href="#collaborate" class="collaborate-menu">COLLABORATE WITH US</a>
     </div>
     <div class="container-title-img">
-      <img src="images/home_image.png" class="title-img">
+      <img class="title-img">
       <div class="container-tictac-img">
-        <img src="images/tictac.png" class="tictac-img">
+        <img class="tictac-img">
       </div>
       <div class="container-strategy-text">
         <p>Strategy</p>
       </div>
       <div class="container-wheel-img">
-        <img src="images/wheel.png" class="wheel-img">
+        <img class="wheel-img">
       </div>
       <div class="container-system-text">
         <p>System</p>
       </div>
       <div class="container-bulb-img">
-        <img src="images/bulb.png" class="bulb-img">
+        <img class="bulb-img">
       </div>
       <div class="container-innovations-text">
         <p>innovations</p>
       </div>
       <div class="container-pencil-img">
-        <img src="images/pencil.png" class="pencil-img">
+        <img class="pencil-img">
       </div>
       <div class="container-logo-img">
         <img src="images/logo.png" class="logo-img">
@@ -56,7 +59,7 @@
 
   <section id="about">
     <div class="container-about-img">
-      <img src="images/about_image.png" class="about-img">
+      <img class="about-img">
       <div class="container-about-text">
         <p>SYSID is an on-demand, full service <br>
           marketing consultancy firm.<br><br>
@@ -71,7 +74,7 @@
 
   <section id="solutions">
     <div class="container-solutions-img">
-      <img src="images/solutions_image.png" class="solutions-img">
+      <img class="solutions-img">
       <div class="container-logo-img">
         <img src="images/logo.png" class="logo-img">
       </div>
@@ -146,7 +149,7 @@
 
   <section id="collaborate">
     <div class="container-collab-img">
-      <img src="images/collab_image.png" class="collab-img">
+      <img class="collab-img">
       <!-- <div class="container-connect-text">
         <p>connect@sysidph.com</p>
       </div> -->
@@ -160,9 +163,22 @@
       </div> -->
       <div class="container-mail-connect-text">
         <i class="far fa-envelope"></i>
-        <a href="mailto:hello@sysid.ph">Email Us</a>
-        <!-- id="email-modal-btn" -->
+        <a id="email-modal-btn">Email Us</a>
+
       </div>
+
+      <div class="container-mobile-email-form">
+        <form action="#" method="POST" class="mobile-email-form">
+          <input id="client-name" type="text" name="name" class="mobile-email-input" placeholder="Name" required><br>
+          <input id="client-email" type="text" name="mail" class="mobile-email-input" placeholder="Email" required><br>
+          <br>
+          <textarea id="client-message" type="text" name="message" class="mobile-email-content" placeholder="Message" rows="10" required></textarea>
+          <br>
+          <input type="submit" value="Send" class="mobile-email-button"><br>
+          <input type="reset" value="Reset" class="mobile-email-button">
+        </form>
+      </div>
+
     </div>
   </section>
 
