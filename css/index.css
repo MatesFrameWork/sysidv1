@@ -841,14 +841,14 @@ footer i{
     position: absolute;
     width: 100%;
     height: auto;
-    top: 29.5%;
+    top: 32%;
     display: block;
   }
 
   .container-tictac-img .tictac-img{
-    margin-left: 56%;
-    width: 36%;
-    height: 17vh;
+    margin-left: 50%;
+    width: 31%;
+    height: 13vh;
   }
 
   .container-strategy-text{
@@ -878,18 +878,7 @@ footer i{
     width: 30%;
     height: 18vh;
   }
-  .container-tictac-img{
-    position: absolute;
-    width: 100%;
-    height: auto;
-    top: 15rem;
-  }
-
-  .container-tictac-img .tictac-img{
-    margin-right: 3.5%;
-    width: 31%;
-    height: 29%;
-  } 
+  
 
   .container-system-text{
     position: absolute;
@@ -1001,7 +990,7 @@ footer i{
   .container-about-text p{
     font-family: Gotham;
     margin-right: 5%;
-    font-size: 0.65rem;
+    font-size: 0.70rem;
   }
 
   .container-solutions-img{
