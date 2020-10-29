@@ -882,7 +882,7 @@ footer i{
     position: absolute;
     width: 100%;
     height: auto;
-    top: 19rem;
+    top: 15rem;
   }
 
   .container-tictac-img .tictac-img{
@@ -992,16 +992,16 @@ footer i{
 
   .container-about-text{
     position: absolute;
-    width: 100%;
+    width: 90%;
     height: auto;
     text-align: center;
-    top: 23%;
+    top: 23.5%;
   }
 
   .container-about-text p{
     font-family: Gotham;
-    margin-left: 19%;
-    font-size: 0.80rem;
+    margin-right: 5%;
+    font-size: 0.65rem;
   }
 
   .container-solutions-img{
