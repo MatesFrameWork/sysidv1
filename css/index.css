@@ -848,7 +848,7 @@ footer i{
   .container-tictac-img .tictac-img{
     margin-left: 50%;
     width: 31%;
-    height: 13vh;
+    height: 12vh;
   }
 
   .container-strategy-text{
@@ -876,7 +876,7 @@ footer i{
   .container-wheel-img .wheel-img{
     margin-right: 37%;
     width: 30%;
-    height: 18vh;
+    height: 17vh;
   }
   
 
@@ -905,7 +905,7 @@ footer i{
   .container-bulb-img .bulb-img{
     margin-left: 39%;
     width: 30%;
-    height: 14vh;
+    height: 13vh;
   }
 
   .container-innovations-text{
@@ -933,7 +933,7 @@ footer i{
   .container-pencil-img .pencil-img{
     margin-left: -48.5%;
     width: 29%;
-    height: 13.5vh;
+    height: 12.5vh;
   }
 
   .container-design-text{
@@ -982,7 +982,7 @@ footer i{
   .container-about-text{
     position: absolute;
     width: 90%;
-    height: auto;
+    height: 90%;
     text-align: center;
     top: 23.5%;
   }
