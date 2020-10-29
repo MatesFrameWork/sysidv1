@@ -981,16 +981,16 @@ footer i{
 
   .container-about-text{
     position: absolute;
-    width: 90%;
-    height: 90%;
+    width: 94%;
+    height: auto;
     text-align: center;
-    top: 23.5%;
+    top: 23%;
   }
 
   .container-about-text p{
     font-family: Gotham;
-    margin-right: 5%;
-    font-size: 0.70rem;
+    margin-left: 26%;
+    font-size: 0.68rem;
   }
 
   .container-solutions-img{
