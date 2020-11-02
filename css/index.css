@@ -1280,7 +1280,7 @@ footer i{
   padding: 3rem;
   padding-right: 2.5rem;
   border: 2px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 60%; /* Could be more or less, depending on screen size */
   }
 
 /* The Close Button */
@@ -1305,7 +1305,7 @@ footer i{
   }
 
 .email-input{
-  width: 70%;
+  width: 60%;
   }
 
 .email-content{
