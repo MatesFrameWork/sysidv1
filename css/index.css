@@ -1216,7 +1216,8 @@ footer i{
  
 .container-mail-connect-text:hover{
    cursor: pointer;
-   color: white;
+   /*color: white;*/
+ 
   }
 
 .container-mail-connect-text .envelop-img:hover{
@@ -1278,8 +1279,8 @@ footer i{
   background-color: #fefefe;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 3rem;
-  padding-right: 2.5rem;
-  border: 2px solid #888;
+  padding-left: 2.5rem;
+  border: 1.5px solid #888;
   width: 60%; /* Could be more or less, depending on screen size */
   }
 
