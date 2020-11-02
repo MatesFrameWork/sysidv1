@@ -77,7 +77,7 @@ $(window).resize(function(){
     $(".container-about-img .about-img").attr("src","images/mobile_about_image.png");
     $(".container-solutions-img .solutions-img").attr("src","images/mobile_solutions_image.png");
     $(".container-collab-img .collab-img").attr("src","images/mobile_collab_image.png");
-	$(".container-collab-img .envelop-img").attr("src","images/mobile-collab-envelop.png");
+	$(".container-mail-connect-text .envelop-img").attr("src","images/mobile_collab-envelop.png");
   }
   else {
     $(".container-title-img .title-img").attr("src","images/home_image.png");
@@ -87,7 +87,8 @@ $(window).resize(function(){
     $(".container-pencil-img .pencil-img").attr("src","images/pencil.png");
     $(".container-about-img .about-img").attr("src","images/about_image.png");
     $(".container-solutions-img .solutions-img").attr("src","images/solutions_image.png");
-    $(".container-collab-img .collab-img").attr("src","images/collab_image.png");
+    $(".container-collab-img .collab-img").attr("src","images/mobile_collab_image.png");
+	$(".container-mail-connect-text .envelop-img").attr("src","images/mobile_collab-envelop.png");
   }
 });
 
@@ -102,7 +103,7 @@ $(document).ready(function(){
     $(".container-about-img .about-img").attr("src","images/mobile_about_image.png");
     $(".container-solutions-img .solutions-img").attr("src","images/mobile_solutions_image.png");
     $(".container-collab-img .collab-img").attr("src","images/mobile_collab_image.png");
-	$(".container-collab-img .envelop-img").attr("src","images/mobile-collab-envelop.png");
+	$(".container-mail-connect-text .envelop-img").attr("src","images/mobile_collab-envelop.png");
   }
   else {
     $(".container-title-img .title-img").attr("src","images/home_image.png");
@@ -112,6 +113,7 @@ $(document).ready(function(){
     $(".container-pencil-img .pencil-img").attr("src","images/pencil.png");
     $(".container-about-img .about-img").attr("src","images/about_image.png");
     $(".container-solutions-img .solutions-img").attr("src","images/solutions_image.png");
-    $(".container-collab-img .collab-img").attr("src","images/collab_image.png");
+    $(".container-collab-img .collab-img").attr("src","images/mobile_collab_image.png");
+	$(".container-mail-connect-text .envelop-img").attr("src","images/mobile_collab-envelop.png");
   }
 });

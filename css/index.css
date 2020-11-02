@@ -527,9 +527,7 @@ a.home-menu{
   margin-right: 44%;
   font-size: 1.5vw;
 }
-.container-collab-img .envelop-img {
-	 display: none;
-}
+
 
 #collaborate{
   position: relative;
@@ -548,11 +546,62 @@ a.home-menu{
 }
 
 .container-collab-img .collab-img{
-  width: 100%;
-  height: auto;
+  position: relative;
+  width: 40%;
+  height: 50%;
+  margin-top: 10%;
+  margin-left: 8%;
 }
 
-.container-connect-text{
+.container-mail-connect-text{
+    display: block;
+    position: relative;
+    text-align: center;
+	width: 20%;
+    height: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20%;
+  }
+  
+  .container-mail-connect-text .envelop-img {
+	display: block;
+	position: relative;
+	margin-top: -5%;
+	width: 90%;
+	height: Auto%;
+  }
+  
+   .container-mail-connect-text p {
+	display: block;
+	position: absolute;
+	text-align: center;
+	font-family: Gotham;
+	top: 55%;
+    font-size: 2.5vw;
+	margin-bottom: 30%;
+	margin-left: 20%;
+	margin-right: 
+  }
+ 
+.container-mail-connect-text:hover{
+   cursor: pointer;
+   color: white;
+  }
+
+.container-mail-connect-text .envelop-img:hover{
+  content: url("../images/mobile_collab-envelop2.png");
+  }
+
+/*.container-mail-connect-text .envelop-img{
+  position: relative;
+  width: 30%;
+  height: 40%;
+  margin-top: 0%;
+  margin-left: 5%; */
+}
+
+/*.container-connect-text{
   position: absolute;
   width: 100%;
   height: auto;
@@ -564,7 +613,7 @@ a.home-menu{
   font-family: Gotham;
   margin-right: 26%;
   font-size: 1.1vw;
-}
+} */
 
 .container-fb-connect-text{
   position: absolute;
@@ -642,20 +691,22 @@ a.home-menu{
   float: right;
 }
 
-.container-mail-connect-text{
+
+
+/*.container-mail-connect-text{
   display: block;
   position: absolute;
   width: 13.7%;
   height: auto;
   text-align: center;
-  /* top: 63%; */
+  /* top: 63%;
   top: 53%;
   left: 50%;
   transform: translate(-50%);
   border-radius: 30px;
   padding: 0.5% 4%;
   background-color: rgba(54,179,165,1);
-}
+} 
 
 .container-mail-connect-text:hover{
   background-color: rgba(0,0,0,0.7);
@@ -673,7 +724,7 @@ a.home-menu{
   display: block;
   float: left;
   padding-left: 20%;
-  /* border:1px solid blue; */
+  /* border:1px solid blue;
 }
 
 .container-mail-connect-text a{
@@ -685,8 +736,9 @@ a.home-menu{
   float: right;
   margin-top: 2.75%;
   padding-right: 20%;
-  /* border:1px solid red; */
+  /* border:1px solid red;
 }
+*/
 
 .container-mobile-email-form{
   display: none;
@@ -778,9 +830,6 @@ footer i{
   font-family: Gotham;
   border-radius: 30px;
   font-size: 1vw;
-}
-.container-mail2-connect-text{
-    display: none;
 }
 
 @media all and (max-width: 750px) {
@@ -1078,6 +1127,20 @@ footer i{
     margin-right: 55%;
   }
   
+  .container-research-text{
+    position: absolute;
+    top:81.5%;
+    width: 100%;
+    text-align: center;
+    height: auto;
+  }
+
+  .container-research-text p{
+    font-family: Chapillada;
+    font-size: 3vw;
+    margin-right: -17.5%;
+  }
+  
   
   
 
@@ -1090,7 +1153,6 @@ footer i{
   .container-arrow3-img,
   .container-marketing-img,
   .container-arrow4-img,
-  .container-research-text,
   .container-web-img,
   .container-arrow5-img,
   .container-consultancy-img,
@@ -1121,36 +1183,47 @@ footer i{
     width: 70%;
     height: 70%;
   }
+  
   .container-mail-connect-text{
-    display: none;
-  }
-  
-  .container-mail2-connect-text{
-	display: block;
-    position: absolute;
-    top:125%;
-    width: 100%;
+    display: block;
+    position: relative;
     text-align: center;
-    height: auto;
+	width: 30%;
+    height: 30%;
+	margin-left: auto;
+	margin-right: auto;
   }
   
-  .container-mail2-connect-text p{
-    font-family: Gotham;
-    font-size: 4vw;
-	
-    margin-left: 0%;
+  .container-mail-connect-text .envelop-img {
+	display: block;
+	position: relative;
+	margin-top: -5%;
+	width: 90%;
+	height: Auto%;
   }
   
- .container-collab-img .envelop-img {
-	 display: block;
-	 position: absolute;
-	 width: 30%;
-	 height: auto;
-	 margin-top: 10%;
-	 margin-left: 34%;
-	  -ms-transform: translateY(-50%);
-    transform: translateY(-50%); 
- }
+   .container-mail-connect-text p {
+	display: block;
+	position: absolute;
+	text-align: center;
+	font-family: Gotham;
+	top: 57%;
+    font-size: 3.5vw;
+	margin-bottom: 30%;
+	margin-left: 20%;
+	margin-right: 
+  }
+ 
+.container-mail-connect-text:hover{
+   cursor: pointer;
+   color: white;
+  }
+
+.container-mail-connect-text .envelop-img:hover{
+  content: url("../images/mobile_collab-envelop2.png");
+  }
+  
+
 /*
   .container-mobile-email-form{
     display: block;
@@ -1182,12 +1255,73 @@ footer i{
     width: 30%;
     background-color: rgba(54,179,165,1);
     font-family: Gotham;
-    border-radius: 30px;
-    font-size: 2vw;
-  } */
+    border-radius: 40px;
+    font-size: 2.5vw;
+  } 
+*/
 
-
-  .close-email-modal {
-    font-size: 3vw;
+.email-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   }
+
+/* Modal Content/Box */
+.email-modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 3rem;
+  padding-right: 2.5rem;
+  border: 2px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+/* The Close Button */
+.close-email-modal {
+  color: #aaa;
+  float: right;
+  font-size: 8vw;
+  font-weight: bold;
+  margin-right: -10px;
+  }
+
+.close-email-modal:hover,
+.close-email-modal:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  }
+
+.email-form{
+  font-family: Chapillada;
+  font-size: 2rem;
+  }
+
+.email-input{
+  width: 70%;
+  }
+
+.email-content{
+  width: 90%;
+  /* height: 3rem; */
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-y: scroll;
+  }
+
+.email-button{
+  background-color: rgba(54,179,165,1);
+  font-family: Gotham;
+  border-radius: 70x;
+  font-size: 4vw;
+  }
+
 }
