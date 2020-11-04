@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: Gotham;
-    src: url("../fonts/Gotham-Light.otf") format("opentype")
+    src: url("../fonts/Gotham-Light.otf") format("opentype");
 }
 
 
@@ -21,7 +21,7 @@ body{
   background: url("../images/background.png");
   background-size: cover;
   width: 100%;
-  height: auto;
+  height: 100%;
   padding-bottom: 2.5rem;
   /* border: 2px solid red; */
 }
@@ -204,7 +204,6 @@ a.home-menu{
   width: 23%;
   height: auto;
 }
-
 #about{
   position: relative;
   display: block;
@@ -551,7 +550,7 @@ video {
   background: url("../images/background.png");
   background-size: cover;
   width: 100%;
-  height: auto;
+  height: 100%;
   padding-bottom: 2.5rem;
 }
 
@@ -566,7 +565,7 @@ video {
   position: relative;
   width: 40%;
   height: 50%;
-  margin-top: 15%;
+  margin-top: 10%;
   margin-left: 8%;
 }
 
@@ -578,7 +577,7 @@ video {
     height: 20%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 10%;
+	margin-bottom: 15%;
   }
   
   .container-mail-connect-text .envelop-img {
@@ -862,7 +861,6 @@ footer i{
   html{
     height: 100%;
   }
-  
 
   .container-navigation {
     background-color: transparent;
@@ -1187,11 +1185,15 @@ footer i{
     display: none;
   }
 
-
+  #title{
+	  background-size: cover;
+  }
+  
   #collaborate{
     position: relative;
     display: block;
     background: url("../images/background.png");
+	background-size: cover;
     width: 100%;
     height: Auto%;
     padding-bottom: 2.5rem;
@@ -1236,7 +1238,7 @@ footer i{
 	 font-family: Gotham;
 	 top: 57%;
      font-size: 3.5vw;
-	 margin-bottom: 30%;
+	 margin-bottom: 10%;
 	 margin-left: 20%;
 	 margin-right: 
 	 z-index: 1;
