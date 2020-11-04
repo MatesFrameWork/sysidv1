@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: Gotham;
-    src: url("../fonts/Gotham-Light.otf") format("opentype");
+    src: url("../fonts/Gotham-Light.otf") format("opentype")
 }
 
 
@@ -19,8 +19,9 @@ body{
   position: relative;
   display: block;
   background: url("../images/background.png");
+  background-size: cover;
   width: 100%;
-  height: 100%;
+  height: auto;
   padding-bottom: 2.5rem;
   /* border: 2px solid red; */
 }
@@ -207,11 +208,25 @@ a.home-menu{
 #about{
   position: relative;
   display: block;
+  width: 100%;
+  height: auto;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-bottom: -1.5%;
+}
+
+/*#about{
+  position: relative;
+  display: block;
   background: url("../images/background.png");
   width: 100%;
   height: 100%;
   padding-bottom: 2.5rem;
-  /* border: 2px solid blue; */
+  /* border: 2px solid blue;
 }
 
 .container-about-img{
@@ -247,7 +262,7 @@ a.home-menu{
   width: 100%;
   height: 100%;
   padding-bottom: 2.5rem;
-  /* border: 2px solid green; */
+  /* border: 2px solid green; 
 }
 
 .container-solutions-img{
@@ -527,14 +542,16 @@ a.home-menu{
   margin-right: 44%;
   font-size: 1.5vw;
 }
+*/
 
 
 #collaborate{
   position: relative;
   display: block;
   background: url("../images/background.png");
+  background-size: cover;
   width: 100%;
-  height: 100%;
+  height: auto;
   padding-bottom: 2.5rem;
 }
 
@@ -549,7 +566,7 @@ a.home-menu{
   position: relative;
   width: 40%;
   height: 50%;
-  margin-top: 10%;
+  margin-top: 15%;
   margin-left: 8%;
 }
 
@@ -561,7 +578,7 @@ a.home-menu{
     height: 20%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 20%;
+	margin-bottom: 10%;
   }
   
   .container-mail-connect-text .envelop-img {
@@ -845,6 +862,7 @@ footer i{
   html{
     height: 100%;
   }
+  
 
   .container-navigation {
     background-color: transparent;
@@ -1212,27 +1230,28 @@ footer i{
   }
   
    .container-mail-connect-text p {
-	display: block;
-	position: absolute;
-	text-align: center;
-	font-family: Gotham;
-	top: 57%;
-    font-size: 3.5vw;
-	margin-bottom: 30%;
-	margin-left: 20%;
-	margin-right: 
-	z-index: 1;
+	 display: block;
+	 position: absolute;
+	 text-align: center;
+	 font-family: Gotham;
+	 top: 57%;
+     font-size: 3.5vw;
+	 margin-bottom: 30%;
+	 margin-left: 20%;
+	 margin-right: 
+	 z-index: 1;
   }
  
-.container-mail-connect-text:hover{
-   cursor: pointer;
-   /*color: white;*/
+  .container-mail-connect-text:hover{
+     cursor: pointer;
+    /*color: white;*/
  
   }
 
-.container-mail-connect-text .envelop-img:hover{
-  content: url("../images/mobile_collab-envelop2.png");
+  .container-mail-connect-text .envelop-img:hover{
+    content: url("../images/mobile_collab-envelop2.png");
   }
+  
   
 
 /*
