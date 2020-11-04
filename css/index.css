@@ -586,7 +586,7 @@ a.home-menu{
  
 .container-mail-connect-text:hover{
    cursor: pointer;
-   color: white;
+   color: rgba(54,179,165,1);
   }
 
 .container-mail-connect-text .envelop-img:hover{
@@ -828,8 +828,17 @@ footer i{
 .email-button{
   background-color: rgba(54,179,165,1);
   font-family: Gotham;
-  border-radius: 30px;
+  border: 0;
+  width: 70px;
+  box-shadow: none;
+  border-radius: 50px;
   font-size: 1vw;
+}
+
+.email-button:hover {
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  cursor: pointer;
 }
 
 @media all and (max-width: 750px) {
@@ -1003,14 +1012,14 @@ footer i{
     position: absolute;
     width: 100%;
     height: auto;
-    top: 40%;
+    top: 41%;
     display: block;
   }
 
   .container-logo-img .logo-img{
     /* margin-left: 2%; */
     width: 36%;
-    height: 19vh;
+    height: 17vh;
   }
 
   .container-about-img{
@@ -1212,6 +1221,7 @@ footer i{
 	margin-bottom: 30%;
 	margin-left: 20%;
 	margin-right: 
+	z-index: 1;
   }
  
 .container-mail-connect-text:hover{
