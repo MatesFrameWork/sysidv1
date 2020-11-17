@@ -222,7 +222,7 @@ video {
   width: 100%;
   height: auto;
   position: relative;
-  margin-bottom: -1.5%;
+  margin-bottom: -2%;
 }
 
 
@@ -539,7 +539,7 @@ footer i{
 
   .container-strategy-text{
     position: absolute;
-    top: 43.5%;
+    top: 44%;
     width: 100%;
     text-align: center;
     height: auto;
@@ -647,7 +647,7 @@ footer i{
   .container-logo-img .logo-img{
     /* margin-left: 2%; */
     width: 36%;
-    height: 17vh;
+    height: 15.5vh;
   }
 
   .container-about-img{
@@ -786,6 +786,7 @@ footer i{
 	background-size: cover;
     width: 100%;
     height: Auto;
+    padding-bottom: 0rem;
 	padding-top: 5rem;
   }
 
@@ -825,9 +826,10 @@ footer i{
 	 position: absolute;
 	 text-align: center;
 	 font-family: Gotham;
-	 top: 65%;
+	 top: 67%;
      font-size: 3.5vw;
-	 margin-left: 20%;
+	 margin-bottom: 0%;
+	 margin-left:22%;
 	 margin-right: 
 	 z-index1;
   }
@@ -843,7 +845,7 @@ footer i{
   }
 
   .container-mail-connect-text .envelop-img:hover{
-    content: url("../images/mobile_collab-envelop.png");
+    content: url("../images/mobile_collab-envelop2.png");
   }
   
 
