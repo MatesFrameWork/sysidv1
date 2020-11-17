@@ -1,20 +1,17 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-<head>
-  <meta charset="utf-8">
-  <title>SYSiD</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="stylesheet" href="css/index.css">
-
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-</head>
-
-<body>
-
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>SYSiD</title>  
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css"">  
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+ 
+    <script src="js/bootstrap.min.js"></script>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>  
+<body style="background-color:lightgray">  
   <section id="title">
     <div class="container-navigation" id="navigation-menu">
       <a href="javascript:void(0);" class="icon" onclick="navigationIcon()">
@@ -55,117 +52,18 @@
         <p>Design</p>
       </div>
     </div>
-  </section>
+  </section> 
 
   <section id="about">
-    <!-- <div class="container-about-img">
-      <img class="about-img">
-      <div class="container-about-text">
-        <p>SYSID is an on-demand, full service <br>
-          marketing consultancy firm.<br><br>
-          We provide our clients with the <br>
-          strategy and solutions that optimize <br>
-          results and business performance in <br>
-          this digital age.
-        </p>
-      </div>
-    </div>
-	-->
   <video playsinline autoplay muted loop  id="about-vid">
   <source src="videos/Company_Profile.mp4" type="video/mp4">
   </video>
   </section>
 
- <!-- <section id="solutions">
-    <div class="container-solutions-img">
-      <img class="solutions-img">
-      <div class="container-logo-img">
-        <img src="images/logo.png" class="logo-img">
-      </div>
-      <div class="container-two-wheels-img">
-        <img src="images/two_wheels.png" class="two-wheels-img">
-      </div>
-      <div class="container-arrow1-img">
-        <img src="images/arrow1.png" class="arrow1-img">
-      </div>
-      <div class="container-marketing-text">
-        <p>Marketing<br>
-          Strategy
-        </p>
-      </div>
-      <div class="container-greenbulb-img">
-        <img src="images/greenbulb.png" class="greenbulb-img">
-      </div>
-      <div class="container-arrow2-img">
-        <img src="images/arrow2.png" class="arrow2-img">
-      </div>
-      <div class="container-creative-text">
-        <p>Creative<br>
-          Development<br>
-          & Production
-        </p>
-      </div>
-      <div class="container-content-img">
-        <img src="images/content.png" class="content-img">
-      </div>
-      <div class="container-arrow3-img">
-        <img src="images/arrow3.png" class="arrow3-img">
-      </div>
-      <div class="container-content-text">
-        <p>Content<br>
-          Strategy & Platorm<br>
-          Management
-        </p>
-      </div>
-      <div class="container-marketing-img">
-        <img src="images/marketing.png" class="marketing-img">
-      </div>
-      <div class="container-arrow4-img">
-        <img src="images/arrow4.png" class="arrow4-img">
-      </div>
-      <div class="container-research-text">
-        <p>Market Research,<br>
-          Data & Digital Media
-        </p>
-      </div>
-      <div class="container-web-img">
-        <img src="images/web.png" class="web-img">
-      </div>
-      <div class="container-arrow5-img">
-        <img src="images/arrow5.png" class="arrow5-img">
-      </div>
-      <div class="container-web-text">
-        <p>Web, App &<br>
-          System Development
-        </p>
-      </div>
-      <div class="container-consultancy-img">
-        <img src="images/consultancy.png" class="consultancy-img">
-      </div>
-      <div class="container-arrow6-img">
-        <img src="images/arrow6.png" class="arrow6-img">
-      </div>
-      <div class="container-consultancy-text">
-        <p>Consultancy</p>
-      </div>
-    </div>
-  </section> -->
-
   <section id="collaborate">
     <div class="container-collab-img">
       <img class="collab-img">
 	  
-      <!-- <div class="container-connect-text">
-        <p>connect@sysidph.com</p>
-      </div> -->
-      <!-- <div class="container-fb-connect-text">
-        <a href="#">Connect With Us Through</a>
-        <i class="fab fa-facebook-f"></i>
-      </div>
-      <div class="container-google-connect-text">
-        <a href="#">Connect With Us Through</a>
-        <i class="fab fa-google"></i>
-      </div> -->
       <div class="container-mail-connect-text">
         <!-- <i class="far fa-envelope"></i> -->
         <a id="email-modal-btn"><p>Email Us</p><img class="envelop-img"></a>
@@ -174,7 +72,7 @@
       <div class="container-mobile-email-form">
         <form action="#" method="POST" class="mobile-email-form">
           <input id="client-name" type="text" name="name" class="mobile-email-input" placeholder="Name" required><br>
-		  <br>
+		      <br>
           <input id="client-email" type="text" name="mail" class="mobile-email-input" placeholder="Email" required><br>
           <br>
           <textarea id="client-message" type="text" name="message" class="mobile-email-content" placeholder="Message" rows="10" required></textarea>
@@ -211,7 +109,7 @@
       <span class="close-email-modal">&times;</span>
       <form action="javascript:sendMessage()" method="POST" class="email-form">
         Name:
-        <input id="client-name" type="text" name="name" class="email-input" required><br>
+        <input id="client-name" type="text" name="name" class="email-input" required>
         E-mail:
         <input id="client-email" type="text" name="mail" class="email-input" required><br>
         <br>
@@ -249,6 +147,5 @@
   <div class="fb-customerchat" attribution=setup_tool page_id="105441090988022" theme_color="#bebebe">
   </div>
   <script src="js/index.js" charset="utf-8"></script>
-</body>
-
-</html>
+</body>  
+</html>  
