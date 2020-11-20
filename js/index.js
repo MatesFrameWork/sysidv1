@@ -58,7 +58,7 @@ $(document).scroll(function(){
 });
 
 function navigationIcon() {
-  var x = $("#navigation-menu");
+  var x = document.getElementById("navigation-menu");
   if (x.className === "container-navigation") {
     x.className += " responsive";
   } else {
@@ -68,7 +68,7 @@ function navigationIcon() {
 
 $(window).resize(function(){
   var windowWidth = $(this).width();
-  if (windowWidth<=750){
+  if (windowWidth<=600){
     $(".container-title-img .title-img").attr("src","images/mobile_home_image.png");
     $(".container-tictac-img .tictac-img").attr("src","images/mobile_tictac.png");
     $(".container-bulb-img .bulb-img").attr("src","images/mobile_bulb.png");
@@ -95,7 +95,7 @@ $(window).resize(function(){
 
 $(document).ready(function(){
   var windowWidth = $(this).width();
-  if (windowWidth<=750){
+  if (windowWidth<=600){
     $(".container-title-img .title-img").attr("src","images/mobile_home_image.png");
     $(".container-tictac-img .tictac-img").attr("src","images/mobile_tictac.png");
     $(".container-bulb-img .bulb-img").attr("src","images/mobile_bulb.png");
