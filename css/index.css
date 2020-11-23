@@ -53,7 +53,35 @@ body{
   padding-left: 0.5rem;
   text-decoration: none;
   color: white;
-} 
+}  
+
+/* .container-navigation {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: rgba(0,0,0,0.7);
+  overflow: hidden;
+  padding: 2rem 0 2rem 0;
+  z-index: 1;
+  
+}
+
+/* Style the links inside the navigation bar 
+.container-navigation a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  text-decoration: none;
+  font-family: Chapillada;
+  font-size: 17px;
+} */
+
+.container-navigation a.active {
+  color: rgba(54,179,165,1)
+}
 
 .container-navigation .icon {
   display: none;
@@ -64,10 +92,6 @@ body{
   background-color: transparent;
 }
 
-
-a.home-menu{
-  color: rgba(54,179,165,1);
-}
 
 .container-title-img{
   position: relative;
@@ -474,40 +498,6 @@ footer i{
     height: 100%;
   }
 
-  .container-navigation {
-    background-color: transparent;
-    overflow: hidden;
-  }
-
-  .container-navigation .icon{
-    font-size: 1.3rem;
-    display: block;
-    margin-top: -2rem;
-    padding-top: 0.4rem;
-    float: left;
-    padding-left: 0.3rem;
-    padding-right: 0.3rem;
-  }
-
-  .container-navigation i:hover{
-    color: white;
-  }
-
-  .container-navigation .icon:hover{
-    background: rgba(0,0,0,0.7);
-  }
-
-  .container-navigation a{
-    font-size: 0.75rem;
-    padding-right: 0.25rem;
-    padding-left: 0.25rem;
-    display: none;
-  }
-
-  .container-navigation span{
-    display: none;
-  }
-
   .container-title-img{
     position: relative;
     width: 100%;
@@ -647,7 +637,7 @@ footer i{
   .container-logo-img .logo-img{
     /* margin-left: 2%; */
     width: 36%;
-    height: 14.5vh;
+    height: 15vh;
   }
 
   .container-about-img{
@@ -931,48 +921,32 @@ footer i{
   height: 100%;
 }
 
+.container-navigation.responsive {
+  position: fixed;
+}
 
-  .container-navigation a:not(:first-child) {display: none;}
-  .container-navigation a.icon {
-    float: left;
-    display: block;
-    background: none;
-  }
+.container-navigation.responsive a.icon {
+  float: left;
+}
 
-  .container-navigation.responsive {position: relative;}
-  .container-navigation.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-    background: none; 
-  }
-  .container-navigation.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-    background: rgba(0,0,0,0.7)
-  }
-  .container-navigation {
-    overflow: hidden;
-    float: left;
-  }
-  
-  .container-navigation{
-    position: fixed;
-    width: 100%;
-    height: auto;
-    text-align: left;
-    z-index: 1;
-  } 
-  
-  .container-navigation a{
-    font-family: Chapillada;
-    font-size: 1.2rem;
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
-    text-decoration: none;
-    color: white;
-  } 
+.container-navigation a:not(:only-child) {display: none;}
+.container-navigation a.icon {
+  float: left;
+  display: block;
+}
 
+
+.container-navigation.responsive a {
+  float: none;
+  display: block;
+  text-align: center;
+  background: rgba(0,0,0,0.7);
+}
+
+.container-navigation {
+  background: none;
+  padding: 0rem 0 0rem 0;
+  overflow: hidden;
 }
   
+}
