@@ -91,13 +91,13 @@ body{
 
 .container-title-img{
   position: relative;
+  text-align: center;
   width: 100%;
   height: auto;
-  text-align: center;
 }
 
 .container-title-img .title-img{
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 
@@ -111,8 +111,8 @@ body{
 }
 
 .container-tictac-img .tictac-img{
-  margin-right: 3.5%;
-  width: 13%;
+  margin-right: 3%;
+  width: 12%;
   height: auto;
 }
 
@@ -127,7 +127,7 @@ body{
 .container-strategy-text p{
   font-family: Chapillada;
   font-size: 2vw;
-  margin-right: 3%;
+  margin-right: 2%;
 }
 
 .container-wheel-img{
@@ -135,13 +135,13 @@ body{
   width: 100%;
   height: auto;
   /* border: 1px solid red; */
-  top: 38.8%;
+  top: 39%;
   display: block;
 }
 
 .container-wheel-img .wheel-img{
-  margin-right: 51%;
-  width: 11%;
+  margin-right: 46%;
+  width: 10%;
   height: auto;
 }
 
@@ -156,7 +156,7 @@ body{
 .container-system-text p{
   font-family: Chapillada;
   font-size: 2vw;
-  margin-right: 49%;
+  margin-right: 45%;
 }
 
 .container-bulb-img{
@@ -169,14 +169,14 @@ body{
 }
 
 .container-bulb-img .bulb-img{
-  margin-left: 48%;
-  width: 11%;
+  margin-left: 43%;
+  width: 10%;
   height: auto;
 }
 
 .container-innovations-text{
   position: absolute;
-  top: 54%;
+  top: 55%;
   width: 100%;
   text-align: center;
   height: auto;
@@ -185,7 +185,7 @@ body{
 .container-innovations-text p{
   font-family: Chapillada;
   font-size: 2vw;
-  margin-left: 54.2%;
+  margin-left: 48%;
 }
 
 .container-pencil-img{
@@ -198,8 +198,8 @@ body{
 }
 
 .container-pencil-img .pencil-img{
-  margin-left: 32%;
-  width: 11%;
+  margin-left: 29%;
+  width: 10%;
   height: auto;
 }
 
@@ -214,7 +214,7 @@ body{
 .container-design-text p{
   font-family: Chapillada;
   font-size: 2vw;
-  margin-left: 32.7%;
+  margin-left: 29.7%;
 }
 
 .container-logo-img{
@@ -234,6 +234,8 @@ body{
 #about{
   position: relative;
   display: block;
+  background: url("../images/background.png");
+  background-size: cover;
   width: 100%;
   height: auto;
 }
@@ -242,7 +244,7 @@ video {
   width: 100%;
   height: auto;
   position: relative;
-  margin-bottom: -2%;
+  padding: 5rem 5rem 5rem 5rem;
 }
 
 
@@ -626,14 +628,14 @@ footer i{
     position: absolute;
     width: 100%;
     height: auto;
-    top: 41%;
+    top: 39%;
     display: block;
   }
 
   .container-logo-img .logo-img{
     /* margin-left: 2%; */
     width: 36%;
-    height: 15vh;
+    height: auto;
   }
 
   .container-about-img{
