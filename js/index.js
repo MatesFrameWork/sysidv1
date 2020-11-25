@@ -66,6 +66,16 @@ function navigationIcon() {
   }
 }
 
+$(document).scroll(function() {
+  var x = document.getElementById("navigation-menu");
+    $(document).scroll(function() {
+      if (x.className === "container-navigation responsive") {
+        x.className = "container-navigation";
+      }
+  });
+});
+
+
 $(window).resize(function(){
   var windowWidth = $(this).width();
   if (windowWidth<=600){
@@ -88,7 +98,7 @@ $(window).resize(function(){
     $(".container-pencil-img .pencil-img").attr("src","images/pencil.png");
     $(".container-about-img .about-img").attr("src","images/about_image.png");
     $(".container-solutions-img .solutions-img").attr("src","images/solutions_image.png");
-    $(".container-collab-img .collab-img").attr("src","images/mobile_collab_image.png");
+    $(".container-collab-img .collab-img").attr("src","images/collab_image.png");
 	$(".container-mail-connect-text .envelop-img").attr("src","images/mobile_collab-envelop.png");
   }
 });
@@ -115,7 +125,7 @@ $(document).ready(function(){
     $(".container-pencil-img .pencil-img").attr("src","images/pencil.png");
     $(".container-about-img .about-img").attr("src","images/about_image.png");
     $(".container-solutions-img .solutions-img").attr("src","images/solutions_image.png");
-    $(".container-collab-img .collab-img").attr("src","images/mobile_collab_image.png");
+    $(".container-collab-img .collab-img").attr("src","images/collab_image.png");
 	$(".container-mail-connect-text .envelop-img").attr("src","images/mobile_collab-envelop.png");
   }
 });
